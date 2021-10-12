@@ -18,7 +18,7 @@ const config: MenuEntry[] = [
       {
         label: 'Liquidity',
         href: '/pool'
-      }
+      },
       {
         label: 'Limit Order',
         href: '/Limit'
