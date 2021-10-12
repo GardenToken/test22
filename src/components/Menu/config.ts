@@ -27,14 +27,6 @@ const config: MenuEntry[] = [
         label: 'Stop Loss',
         href: '/Stop'
       }
-      {
-        label: 'Limit Order',
-        href: '/Limit'
-      },
-      {
-        label: 'Stop Loss',
-        href: '/Stop'
-      }
     ]
   },
   {
