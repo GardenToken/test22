@@ -18,10 +18,10 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
         <TranslatedText translationId={74}>Liquidity</TranslatedText>
       </ButtonMenuItem>
       <ButtonMenuItem id="Limit-nav-link" to="/Limit" as={Link}>
-        <TranslatedText translationId={8}>Limit order</TranslatedText>
+        <TranslatedText translationId={20}>Limit order</TranslatedText>
       </ButtonMenuItem>
       <ButtonMenuItem id="stoploss-nav-link" to="/Stop" as={Link}>
-        <TranslatedText translationId={74}>stop loss</TranslatedText>
+        <TranslatedText translationId={60}>stop loss</TranslatedText>
       </ButtonMenuItem>
       <ButtonMenuItem
         id="pool-nav-link"

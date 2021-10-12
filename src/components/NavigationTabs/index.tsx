@@ -88,6 +88,12 @@ export function SwapPoolTabs({ active }: { active: 'swap' | 'pool' }) {
       <StyledNavLink id="pool-nav-link" to="/pool" isActive={() => active === 'pool'}>
         <TranslatedText translationId={74}>Pool</TranslatedText>
       </StyledNavLink>
+      <StyledNavLink id="Limit-nav-link" to="/Limit" isActive={() => active === 'swap'}>
+        <TranslatedText translationId={20}>Limit Order</TranslatedText>
+      </StyledNavLink>
+      <StyledNavLink id="stoploss-nav-link" to="/Stop" isActive={() => active === 'pool'}>
+        <TranslatedText translationId={60}>stop loss</TranslatedText>
+      </StyledNavLink>
       <StyledAbsoluteLink id="pool-nav-link" target="_blank" href="https://www.binance.org/en/panama">
         Bridge
       </StyledAbsoluteLink>
@@ -102,6 +108,12 @@ export const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
     </ButtonMenuItem>
     <ButtonMenuItem id="pool-nav-link" to="/pool" as={HistoryLink}>
       <TranslatedText translationId={74}>Liquidity</TranslatedText>
+    </ButtonMenuItem>
+    <ButtonMenuItem id="limit-nav-link" to="/Limit" as={HistoryLink}>
+      <TranslatedText translationId={20}>Limit order</TranslatedText>
+    </ButtonMenuItem>
+    <ButtonMenuItem id="stoploss-nav-link" to="/Stop" as={HistoryLink}>
+      <TranslatedText translationId={60}>stop loss</TranslatedText>
     </ButtonMenuItem>
     <ButtonMenuItem
       id="pool-nav-link"
