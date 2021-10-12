@@ -25,7 +25,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Stop Loss'
-               [coming Soon],
+               ['coming Soon'],
         href: '/Stop'
       }
     ]
